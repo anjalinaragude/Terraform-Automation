@@ -1,0 +1,19 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+
+# Local CLI config
+.terraformrc
+terraform.rc
+
+# Crash logs
+crash.log
+
+# Sensitive files
+*.pem
+*.key
